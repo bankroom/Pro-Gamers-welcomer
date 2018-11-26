@@ -7,8 +7,6 @@ client.on('ready', () => {
 
 
 
-
-
 client.on('guildMemberAdd', member => {
     let channel = member.guild.channels.find('name', 'węłčømé-🎀');
     let memberavatar = member.user.avatarURL
@@ -26,18 +24,6 @@ client.on('guildMemberAdd', member => {
     
       channel.sendEmbed(embed);
     });
-
- 
-  
-
-
-
-
-
-
-
-
-
 
 
 
