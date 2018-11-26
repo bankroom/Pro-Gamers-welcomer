@@ -19,12 +19,9 @@ client.on('guildMemberAdd', member => {
         .addField(':loudspeaker: | نورت السيرفر ي قلبي' , `**Welcome Pro Gamer**, ${member}`)
         .addField(':id: | user :', "**[" + `${member.id}` + "]**" )
                 .addField('➡| انت العضو رقم',`${member.guild.memberCount}`)
-               
-                  .addField("Name:",`<@` + `${member.id}` + `>`, true)
                       
                                      .addField(' الـسيرفر', `${member.guild.name}`,true)
                                        
-     .setFooter("**Last Code**")
         .setTimestamp()
     
       channel.sendEmbed(embed);
