@@ -8,13 +8,13 @@ client.on('ready', () => {
 
 
 client.on('guildMemberAdd', member => {
-    let channel = member.guild.channels.find('name', 'węłčømé-🎀');
+    let channel = member.guild.channels.find('name', '𝐖𝐄𝐋𝐂𝐎𝐌𝐄');
     let memberavatar = member.user.avatarURL
       if (!channel) return; 
     let embed = new Discord.RichEmbed()
         .setColor('RANDOM')
         .setThumbnail(memberavatar)
-        .addField(':loudspeaker: | نورت السيرفر ي قلبي' , `**Welcome Pro Gamer**, ${member}`)
+        .addField(':loudspeaker: | نورت السيرفر ي عمــــري' , `**Welcome Ｗ|ＳＥＲＶＥＲ**, ${member}`)
         .addField(':id: | user :', "**[" + `${member.id}` + "]**" )
                 .addField('➡| انت العضو رقم',`${member.guild.memberCount}`)
                       
