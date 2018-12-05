@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 
 client.on('guildMemberAdd', member => {
-    let channel = member.guild.channels.find('name', '𝐖𝐄𝐋𝐂𝐎𝐌𝐄');
+    let channel = member.guild.channels.find('name', 'węłčømé-🎀');
     let memberavatar = member.user.avatarURL
       if (!channel) return; 
     let embed = new Discord.RichEmbed()
