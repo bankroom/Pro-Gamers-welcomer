@@ -14,7 +14,7 @@ client.on('guildMemberAdd', member => {
     let embed = new Discord.RichEmbed()
         .setColor('RANDOM')
         .setThumbnail(memberavatar)
-        .addField(':loudspeaker: | نورت السيرفر ي عمــــري' , `**Welcome Ｗ|ＳＥＲＶＥＲ**, ${member}`)
+        .addField(':loudspeaker: | نورت السيرفر ي عمــــري' , `**『 šhøp | prõ | gàmêr 』**, ${member}`)
         .addField(':id: | user :', "**[" + `${member.id}` + "]**" )
                 .addField('➡| انت العضو رقم',`${member.guild.memberCount}`)
                       
